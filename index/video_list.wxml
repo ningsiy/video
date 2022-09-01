@@ -1,0 +1,6 @@
+<view class="video_box">
+  <view wx:for="{{list}}" wx:key="index" class="video_list">
+    <image bindtap="goToVideo" class="v_img" mode="aspectFit" src="{{item.img}}" data-v_src="{{item.vedio}}"></image>
+  </view>
+</view>
+

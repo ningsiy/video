@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "index/index",
+    "index/upload",
+    "index/video_list",
+    "index/video_detail",
+    "index/videoInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

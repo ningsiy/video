@@ -1,0 +1,20 @@
+<view class="intro">
+  <view style="background-color: #fff;">
+    <image class="head_info" src="https://thirdwx.qlogo.cn/mmopen/vi_32/K8Ky3va8FGic29r977lu1RBSLlqVTwe1tGNOoK6HmHBMiayA5XLj1qWicPSU5salpdnmQZwjJ2LjlhIh1Kqibsct3Q/132"></image>
+  </view>
+  <view class="release" style="background-color: #fff;">
+    <text style="display: block; margin-top: 20rpx;">请选择视频</text>
+    <image wx:if="{{new_video == ''}}" bindtap="chooseVideo" class="choose_btn" src="https://zhenmuwang.oss-cn-beijing.aliyuncs.com/sell_answer_img__miniapp_3809cd4e-a285-40cc-bd92-15d934c79ba3.png"></image>
+    
+    <video wx:else id="myVideo"  muted="{{true}}"  show-fullscreen-btn='{{showPlayBtn}}' show-play-btn="{{showPlayBtn}}"  show-mute-btn="{{showPlayBtn}}" show-center-play-btn="{{true}}" object-fit="contain" src="{{new_video}}"></video>
+    
+    <text style="display: block; margin-top: 40rpx;">请选择封面</text>
+    <image wx:if="{{new_images == ''}}" bindtap="chooseImage" class="choose_btn" src="https://zhenmuwang.oss-cn-beijing.aliyuncs.com/sell_answer_img__miniapp_3809cd4e-a285-40cc-bd92-15d934c79ba3.png"></image>
+    <image wx:else class="choose_btn" src="{{new_images}}"></image>
+    <button bindtap="submit" class="release_btn">
+      发布
+    </button>
+  </view>
+    
+  
+</view>

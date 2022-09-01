@@ -1,0 +1,3 @@
+<view>
+  <video id="video_play" src="{{video_src}}" 	autoplay loop direction="0"></video>
+</view>

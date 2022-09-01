@@ -1,0 +1,23 @@
+.video_box {
+  width: 400px;
+  /* height: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video_list {
+  width: 350rpx;
+  height: 400rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+  margin-right: 15rpx;
+  background-color: #000000;
+  display: flex;
+  margin-left: 15rpx;
+}
+
+.v_img {
+  /* width: 50%; */
+  height: 400rpx;
+}
+

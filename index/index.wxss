@@ -1,0 +1,42 @@
+.intro {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background: #f4f4f4;
+}
+
+.img_box {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.head_info {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-top: 30rpx;
+  display: inline-block;
+}
+
+.release {
+  width: 100%;
+  padding-bottom: 50rpx;
+  text-align: left;
+  padding-left: 26rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+
+.choose_btn{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 20rpx;
+}
+
+.release_btn {
+  background-color: #FF5A18;
+  color: #ffffff;
+}
+
